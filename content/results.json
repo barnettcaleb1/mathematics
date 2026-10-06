@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "results": [
+    {
+      "slug": "rapid-decay-c-star-simplicity-sunflower-proof",
+      "title": "Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof",
+      "summary": "A supplementary AI-assisted sunflower proof relating rapid decay, the amenable radical, and C*-simplicity, with an extension to sub-rapid decay.",
+      "date": "2026-10-04",
+      "authors": ["Caleb Barnett"],
+      "topic": "Operator algebras",
+      "isExample": false,
+      "pdf": "content/papers/rapid-decay-c-star-simplicity-sunflower-proof.pdf",
+      "tags": ["group theory", "operator algebras", "rapid decay", "C*-simplicity", "amenable radical", "sunflower lemma"],
+      "attachments": []
+    }
+  ]
+}

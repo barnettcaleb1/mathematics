@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI-assisted mathematical research by Caleb Barnett.">
+  <title>Caleb Barnett — Mathematics</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/shared.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <h1 data-site-name>Caleb Barnett</h1>
+    <p data-site-intro>AI-assisted mathematics.</p>
+  </header>
+  <hr>
+  <main id="main">
+    <section id="notes" aria-labelledby="notes-title">
+      <h2 id="notes-title">Results</h2>
+      <form class="search" role="search" onsubmit="return false" data-search-controls hidden>
+        <label for="search-input">Search: <input id="search-input" type="search" placeholder="Title or keyword" autocomplete="off"></label>
+        <button id="clear-filters" type="button" hidden>Clear</button>
+      </form>
+      <span class="sr-only" id="result-count" aria-live="polite"></span>
+      <p id="results-load-state" role="status" hidden></p>
+      <ul id="results-list" aria-busy="false">
+        <li class="result-entry">
+          <a class="result-link" href="content/papers/rapid-decay-c-star-simplicity-sunflower-proof.pdf">Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof</a>
+          <div class="result-metadata">Caleb Barnett · Operator algebras · PDF · <time datetime="2026-10-04">Oct 04, 2026</time></div>
+        </li>
+      </ul>
+      <p id="empty-state" hidden>No matching results.</p>
+    </section>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p data-site-about>AI use and verification are documented in each result.</p>
+      <p class="contact-links"><a data-email-link href="#" hidden>Contact</a><a data-repository-link href="#" hidden>GitHub</a></p>
+    </section>
+  </main>
+  <hr>
+  <footer><small>© <span id="current-year">2026</span> <span data-author>Caleb Barnett</span></small></footer>
+</body>
+</html>
