@@ -204,7 +204,10 @@
     document.querySelectorAll("[data-email-link]").forEach((node) => {
       const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(site.email);
       node.hidden = !valid;
-      if (valid) node.href = `mailto:${encodeURIComponent(site.email)}`;
+      if (valid) {
+        node.href = `mailto:${site.email}`;
+        node.textContent = site.email;
+      }
     });
     document.querySelectorAll(".wordmark").forEach((node) => { node.setAttribute("aria-label", `${site.name} home`); });
     if (!document.getElementById("article-content")) {
