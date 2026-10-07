@@ -4,6 +4,7 @@
 
   const THEME_KEY = "math-notes-theme";
   const STATUSES = Object.freeze({
+    Draft: "A research draft; independent mathematical verification is pending. See the paper for verification scope and limitations.",
     Checked: "A written proof has been checked. See the note for the scope of verification.",
     Computational: "Supported by computation; this label does not establish a general proof.",
     Conjecture: "An unproved claim or open question."

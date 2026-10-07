@@ -2,7 +2,11 @@
 
 A plain HTML research page for AI-assisted mathematics, ready for GitHub Pages. Publish papers directly as PDFs or write results in Markdown with rendered LaTeX. A JSON index controls their metadata. The site has no build step, package manager, or backend.
 
-The archive currently contains [Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof](content/papers/rapid-decay-c-star-simplicity-sunflower-proof.pdf), by Caleb Barnett, dated 4 October 2026.
+The archive currently contains three papers by Caleb Barnett:
+
+- [Kirchberg algebras as full amalgams of stably finite algebras](content/papers/kirchberg-algebras-full-amalgams-stably-finite-draft.pdf), dated 7 October 2026 — Draft (conditional verification).
+- [Cubic lower bounds for conjugacy separation in nilpotent groups](content/papers/cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft.pdf), dated 6 October 2026 — Draft (unverified).
+- [Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof](content/papers/rapid-decay-c-star-simplicity-sunflower-proof.pdf), dated 4 October 2026.
 
 Website: <https://barnettcaleb1.github.io/mathematics/>. Repository: <https://github.com/barnettcaleb1/mathematics>.
 
@@ -65,7 +69,7 @@ Keep the top-level manifest as `{"version": 1, "results": [...]}`. Each entry mu
 
 Markdown entries require a date using `YYYY-MM-DD` and a status.
 
-The three statuses are `Checked`, `Computational`, and `Conjecture`. Choose the status that reflects the evidence you have; the status is an editorial label and is not assigned by the site. Explain the model, prompts, checks, limitations, and any human review within the result itself.
+The four statuses are `Draft`, `Checked`, `Computational`, and `Conjecture`. Use `Draft` for research drafts pending independent mathematical verification, including papers with conditional formal verification. Choose the status that reflects the evidence you have; the status is an editorial label and is not assigned by the site. Explain the model, prompts, checks, limitations, and any human review within the result itself.
 
 The article title comes from the index, so start the Markdown body with an introduction or `##` heading. Second-level headings populate the table of contents. Write mathematics as `$inline math$` and `$$display math$$`, or use `\(...\)` and `\[...\]`. Regular Markdown tables, links, and fenced code blocks are supported.
 

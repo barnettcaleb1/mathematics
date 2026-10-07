@@ -122,8 +122,8 @@ def check_manifest():
         has_pdf = "pdf" in result
         require(has_markdown != has_pdf, f"{prefix}: use exactly one of markdown or pdf")
         if has_markdown or "status" in result:
-            require(result.get("status") in ("Checked", "Computational", "Conjecture"),
-                    f"{prefix}: status must be Checked, Computational, or Conjecture")
+            require(result.get("status") in ("Draft", "Checked", "Computational", "Conjecture"),
+                    f"{prefix}: status must be Draft, Checked, Computational, or Conjecture")
         if has_markdown or "date" in result:
             require(isinstance(result.get("date"), str) and
                     bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", result["date"])),

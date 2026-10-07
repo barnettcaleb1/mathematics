@@ -2,6 +2,32 @@
   "version": 1,
   "results": [
     {
+      "slug": "kirchberg-algebras-full-amalgams-stably-finite-draft",
+      "title": "Kirchberg algebras as full amalgams of stably finite algebras",
+      "summary": "A proposed decomposition of unital Kirchberg algebras as full amalgamated free products of stably finite algebras. Public draft 2, with conditional Lean verification through external analytic interfaces; independent human mathematical verification is pending.",
+      "date": "2026-10-07",
+      "authors": ["Caleb Barnett"],
+      "topic": "Operator algebras",
+      "status": "Draft",
+      "isExample": false,
+      "pdf": "content/papers/kirchberg-algebras-full-amalgams-stably-finite-draft.pdf",
+      "tags": ["Kirchberg algebras", "C*-algebras", "amalgamated free products", "stably finite algebras", "KK theory", "Lean", "conditional verification"],
+      "attachments": []
+    },
+    {
+      "slug": "cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft",
+      "title": "Cubic lower bounds for conjugacy separation in nilpotent groups",
+      "summary": "An unverified draft proposing cubic lower bounds, in Hirsch length, for conjugacy separability growth in torsion-free finitely generated nilpotent groups. Independent verification of the claims and correspondence with the companion Lean formalization is pending.",
+      "date": "2026-10-06",
+      "authors": ["Caleb Barnett"],
+      "topic": "Group theory",
+      "status": "Draft",
+      "isExample": false,
+      "pdf": "content/papers/cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft.pdf",
+      "tags": ["nilpotent groups", "conjugacy separability", "growth", "Hirsch length", "finite quotients", "Lean", "unverified draft"],
+      "attachments": []
+    },
+    {
       "slug": "rapid-decay-c-star-simplicity-sunflower-proof",
       "title": "Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof",
       "summary": "A supplementary AI-assisted sunflower proof relating rapid decay, the amenable radical, and C*-simplicity, with an extension to sub-rapid decay.",
