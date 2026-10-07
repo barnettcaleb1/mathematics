@@ -5,7 +5,7 @@ A plain HTML research page for AI-assisted mathematics, ready for GitHub Pages. 
 The archive currently contains three papers by Caleb Barnett:
 
 - [Kirchberg algebras as full amalgams of stably finite algebras](content/papers/kirchberg-algebras-full-amalgams-stably-finite-draft.pdf), dated 7 October 2026 — Draft (conditional verification).
-- [Cubic lower bounds for conjugacy separation in nilpotent groups](content/papers/cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft.pdf), dated 6 October 2026 — Draft (unverified).
+- [Cubic lower bounds for conjugacy separation in nilpotent groups](content/papers/cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft.pdf), dated 7 October 2026 — Draft (independent review pending).
 - [Rapid Decay and C*-Simplicity: A Supplementary Sunflower Proof](content/papers/rapid-decay-c-star-simplicity-sunflower-proof.pdf), dated 4 October 2026.
 
 Website: <https://barnettcaleb1.github.io/mathematics/>. Repository: <https://github.com/barnettcaleb1/mathematics>.

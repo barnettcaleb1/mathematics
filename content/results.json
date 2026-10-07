@@ -17,14 +17,14 @@
     {
       "slug": "cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft",
       "title": "Cubic lower bounds for conjugacy separation in nilpotent groups",
-      "summary": "An unverified draft proposing cubic lower bounds, in Hirsch length, for conjugacy separability growth in torsion-free finitely generated nilpotent groups. Independent verification of the claims and correspondence with the companion Lean formalization is pending.",
-      "date": "2026-10-06",
+      "summary": "A research draft proposing cubic lower bounds, in Hirsch length, for conjugacy separability growth in torsion-free finitely generated nilpotent groups, with a companion Lean formalization of the lower-bound construction. Independent human review of the claims and their correspondence with the formalization is pending.",
+      "date": "2026-10-07",
       "authors": ["Caleb Barnett"],
       "topic": "Group theory",
       "status": "Draft",
       "isExample": false,
       "pdf": "content/papers/cubic-lower-bounds-conjugacy-separation-nilpotent-groups-draft.pdf",
-      "tags": ["nilpotent groups", "conjugacy separability", "growth", "Hirsch length", "finite quotients", "Lean", "unverified draft"],
+      "tags": ["nilpotent groups", "conjugacy separability", "growth", "Hirsch length", "finite quotients", "Lean", "research draft"],
       "attachments": []
     },
     {
