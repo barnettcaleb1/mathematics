@@ -42,7 +42,7 @@ Open <http://localhost:8000>. Use the local server because the article reader lo
 
 Use the title and authors listed in the paper. A PDF entry needs no Markdown file, publication date, or verification label. Its homepage link opens the PDF directly. If you supply a date or status, the usual date and status rules below apply.
 
-Keep the top-level manifest as `{"version": 1, "results": [...]}`. Each entry must have exactly one `pdf` or `markdown` field. Slugs must be unique lowercase words separated by hyphens, and the content filename must match the slug. Any topic can be used. Search covers titles, descriptions, subjects, authors, and tags.
+Keep the top-level manifest as `{"version": 1, "results": [...]}`. Each entry must have exactly one `pdf` or `markdown` field. Slugs must be unique lowercase words separated by hyphens, and the content filename must match the slug. Any topic can be used.
 
 ## Add a Markdown result
 
